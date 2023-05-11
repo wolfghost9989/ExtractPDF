@@ -1,0 +1,13 @@
+{
+  "model_detection": {
+    "path_model": "models/detection/en_PP-OCRv3_det_infer"
+  },
+  "model_recognition": {
+    "config_model": "config/vgg-transformer.yml",
+    "config_model_base": "config/base.yml",
+    "path_model": "models/recognition/transformerocr.pth"
+  },
+  "font": {
+    "path_font": "data/font/DejaVuSans-Bold.ttf"
+  }
+}
